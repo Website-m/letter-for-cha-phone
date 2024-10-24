@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confession Letter</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+    <style>
+        body {
+            background:linear-gradient(to right, violet, lightblue);
+            height: 100%;
+            font-family: 'Courier New', monospace;
+        }
+        img {
+            width: 30%;
+            border: 0.5px solid, black;
+            border-radius: 10px;
+            animation-delay: 2s;
+        }
+        .gifC{
+            display: flex;
+            justify-content: center;
+        }
+        h1 {
+            font-size: 22px;
+            color: white;
+            text-align: center;
+            animation-delay: 0.4s;
+        }
+        button {
+            background:linear-gradient(to right, violet, lightblue);
+            border: 0.5px solid, white;
+            border-radius: 3px;
+            padding: 20px;
+            width: 30%;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            color: black;
+            animation-delay: 0.8s;
+            cursor: pointer;
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+        p {
+            margin-left: 25px;
+            margin-right: 25px;
+            font-weight: 400;
+            font-size: 14px;
+            text-align: center;
+        }
+        .slide-content {
+            animation: slideIn 2s forwards;
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+<body>
+    <div class="gifC">
+        <img src="final.gif" alt="gifC" class="slide-content">
+    </div>
+
+    <h1 class="slide-content">The Confession!</h1>
+    <p class="slide-content">Uhh, Cha Alam Ko Naman Na Alam Mo Na Yung Tunay Kong Feelings Ko Sayo!
+        Ginawa Ko Ito Kase Hindi Maayos Yung Pag Confess Ko Sayo, Alam Ko Nagtataka Ka Kung Bakit Ang Bilis.
+        First Of All Kase Haha You Get My Heart Eh, And Nakaka Attract Ka kase Or Nakakafall Ka. Ewan Ang Bilis Din,
+        Pero Totoo Lahat Ng Feelings Ko Para Sayo, Pero Mas Gusto Muna Kita Makilala Ng Mas Deep, Ayoko Bilisan Ang Lahat.
+        I Mean Ayoko Bilisan Kase Gusto Pa Kita Makilala And Makasama, Takot Ako Mag Approach Sayo Personally Dahil Sa Issues And Ayoko Madamay Ka.
+        And Lahat Naman Ng Sinasabi Ko Na To Is Genuine. Gusto Talaga Kita, Gusto Kita Maging Part Ng Buhay Ko, And I Hope Matanggap Moko And
+        Mag Karoon Ka Nang Interest Sa Buhay ko. Bukod Doon, Marami Pa Tayong Pagsasamahan As Mag Kaklase And I Hope Hindi Mag Tapos Agad Pagsasama Natin. 
+        And So On Kung Ano Man Tayo Ngayon Edi I Enjoy Nalang Natin. And I Hope Makilala Pa Kita And Mas Marami Pa Tayong Pagdaanan Or Pagsamahan. Sana Hindi Dito Mag tapos Ah??
+        And Also I Know Na Hindi Kapa Ready, Sinabi Mo Naman Sakin Yon Eh. I Respect That! Darating Din Naman Yung Panahon Na Ready Kana And Ready Na I Take Yung Risk Ng Papasukan Natin
+        And Handa Naman Ako Or Willing Naman Ako Mag Hintay Hanggang Dumating Yung Oras Or Panahon Na Yan Eh. I Hope Clear Sayo Ang Lahat Ng Sinasabi Ko, And I Hope Nabasa Mo Ng Maayos! Sorry Dito Ko Nalang Dinaan
+        Sa Pag Gawa Ng Website And Sorry Hindi Kita Ma Approach Personally, Pero Darating Din Yung Time Nayan Na Ma-Approach Din Kita Personally. Feel Free To Ask Any Question Sakin Through Chat, Promise Ko Sayo Na Never Kita Iiwanan Mag Isa
+        And Never Ka Gagawan Ng Mali Na Makakasira Ng Meron Tayo, Saka Never Kita Iiwanan, Nasa Likod Mo Lang Ako Lagi, Pag Need Mo Kausap Or Malalabasan Ng Sama ng Loob, Ready Ako Saluhin Yan. And Anytime Andito Lang Me Hinding Hindi Aalis Sa Tabi Mo Whshshsh. I'm Your Daily Reminder Na Kumain Kana And Na Hindi Ka Nag Iisa, Ako Rin Ang Iyong Best Buddy, Best Friend, Your Best Admirer (Na Dapat Secret Admirer Lang)
+        <br><br><br>Thankyou Cha For Being Their For Me Kahit Minsan Boring Ako Kausap, Pinaglalaanan Mo Parin Ako Ng Oras, Thankyou Very Very So Much, Mwa!!, Continue Mo May Gift Ako!, #Flowers For You!!!
+    </p>
+
+    <div class="button" id="onclick">
+        <button class="slide-content">Continue</button>
+    </div>
+
+    <script>
+        const button = document.getElementById('onclick');
+        button.addEventListener('click', function() {
+            window.location.href = 'flower.html';
+        })
+    </script>
+</body>
+</html>

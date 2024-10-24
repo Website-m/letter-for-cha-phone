@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confession Letter</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+    <style>
+        body {
+            background:linear-gradient(to right, violet, lightblue);
+            height: 100%;
+            font-family: 'Courier New', monospace;
+        }
+        img {
+            width: 40%;
+            border: 0.5px solid, black;
+            border-radius: 10px;
+            animation-delay: 2s;
+        }
+        .gifB {
+            display: flex;
+            justify-content: center;
+        }
+        h1 {
+            color:white;
+            text-align: center;
+            font-size: 20px;
+            animation-delay: 0.4s;
+        }
+        .buttonB {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        button {
+            background:linear-gradient(to right, violet, lightblue);
+            border: 0.5px solid, white;
+            border-radius: 3px;
+            padding: 20px;
+            width: 30%;
+            font-family: 'Courier New', monospace;
+            font-size: 16px;
+            color: black;
+            animation-delay: 0.8s;
+            cursor: pointer;
+        }
+        p {
+            font-size: 16px;
+            color: black;
+            font-weight: 400;
+            margin-left: 25px;
+            margin-right: 25px;
+            text-align: center;
+            animation-delay: 0.6s;
+        }
+        .slide-content {
+            animation: slideIn 2s forwards;
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+<body>
+    <div class="gifB">
+        <img src="second.gif" alt="gifB" class="slide-content">
+    </div>
+
+    <h1 class="slide-content">How I Became In Love With You??</h1>
+    <p class="slide-content">First Of All, Your So Pretty, Cute, Unique And Kind. <br><br>The Way You Approach Me Through Chat Or Online, Like Naa-angasan Ako Sayo, First Time For Me Na Babae Mismo Nag Approach Sakin. So Why, Bakit Kita Nagustuhan? <br><br> 
+        If Physical Looks Ang Usapan, Kuhang Kuha Mo Yung Standard Ko Sa Physical Looks, Although Hindi Naman Ako Doon Nag B-Based, But You Get My Standard. Your So Pretty And Cute. And Your Very Unique, Your Looks Are So Unique. Walang Katulad. <br><br> 
+        On The Other Side. Nag B-Based Ako Sa Persoanlities Mo, Actually Some Of My Standard Nakuha Mo Like WAHHH, Ka Humor Kita. Also Your Personalities Are So Unique, The Way You Approach Me Everytime Sa Chat, Also Your So Kind, Hindi Naman Kita Makakausap Kung Hindi Moko Tinanggap As Friend Na Ngayon Is Admirer Mo Na. <br><br> 
+        Sabi Ko Nga Sayo, My Way Para Makilala Ka Is Very Simple Diba. Admiring, Approaching, Chatting, And Collecting Every Small Or Big Impormation About Sayo, Like Your Family Na Meron Ka Palang Kapatid, WAHH Gusto Ko Sila Makilala Soon!</p>
+    
+    <div class="buttonB" id="onclick">
+        <button class="slide-content">Continue</button>
+    </div>
+
+    <script>
+        const button = document.getElementById('onclick');
+        button.addEventListener('click', function() {
+            window.location.href = 'final.html';
+        })
+    </script>
+</body>
+</html>
